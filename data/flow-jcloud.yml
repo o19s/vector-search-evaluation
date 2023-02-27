@@ -1,0 +1,30 @@
+jtype: Flow
+with:
+  port: 12345
+executors:
+- name: encoder
+  uses: jinahub+docker://TransformerTorchEncoder/latest
+  jcloud:
+    resources:
+      cpu: 2
+      memory: 8G
+      gpu: 1
+- name: indexer
+  uses: jinahub+docker://AnnLiteIndexer/latest
+  uses_with:
+    columns:
+    - - supplier
+      - str
+    - - price
+      - float
+    - - attr_t_product_type
+      - str
+    - - attr_t_product_colour
+      - str
+    n_dim: 768
+  jcloud:
+    resources:
+      storage: 
+      type: ebs
+      size: 10G
+
