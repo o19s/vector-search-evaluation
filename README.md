@@ -4,7 +4,7 @@ This repository contains a set of Jupyter notebooks that walk you through the ne
 
 This example compares an Elasticsearch based e-commerce search setting (["Chorus - the Elasticsearch edition"](https://github.com/querqy/chorus-elasticsearch-edition)) with a Jina AI based vector search setting.
 
-The methodology is explained in the blog post ["Evaluating Vector Search"](https://opensourceconnections.com/blog/).
+The methodology is explained in the blog post ["How to Compare Vector Search to Traditional Search for E-Commerce"](https://opensourceconnections.com/blog/2023/04/20/how-to-compare-vector-search-to-traditional-search-for-e-commerce/).
 
 ## Prerequisites
 
