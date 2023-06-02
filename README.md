@@ -38,7 +38,7 @@ Check the `trec_eval` results for statistical significance.
 
 2. Clone the Chorus (Elasticsearch edition) repository
 
-`https://github.com/querqy/chorus-elasticsearch-edition.git`
+`git clone https://github.com/querqy/chorus-elasticsearch-edition.git`
 
 3. Run the quickstart script to have Chorus up and running
 
